@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+#slider {width: 100%; height: 500px; text-align: center; padding:0 auto;}
+
+nav {width: 100%; height: 80px; background-color: rgb(10, 20, 53);}
+nav ul{width: 1200px; list-style-type: none;  margin: 0 auto; padding: 10px; overflow: hidden;}
+nav li a {text-decoration:none; text-align:center; color: aliceblue; display: block; padding: 20px ;}
+nav li{float: left; padding: 0 18px;}
+nav li:hover{opacity: 0.8;}
+
+.line {width: 100%; height: 3px; border-top: 3px solid #480a94; border-bottom: 3px solid #c09d3f;}
+.content {width: 1200px; height: 150px; margin: 0 auto; border: 1px solid red;}
+
+button{ width: 170px; background-color: white; border: 0.001px solid dimgray; padding: 7px; opacity: 0.8;
+text-align: center; }
+button:hover{cursor: pointer; opacity: 1;} 
+
+#tema { width: 1200px; height: 400px; margin: 70px auto 0; display: flex; flex-direction: row; justify-content: space-between;}  
+#tema >  h1  {width: 1200px; height: 60px; text-align: center;  margin:10px auto;} 
+#tema > .t p  {text-align: center;  margin:20px auto; font-size: larger;}
+#tema > .t img{width: 300px;}
+
+#tema > .t {padding: 15px; float: left;} 
+
+#tema > .t img:hover{opacity: 0.8;}
+
+
+#container{width: 1200px; height: 420px; margin: 0 auto; display: flex; background-color: white;}
+
+.box_left{width: 50%; height: 100%; background: white;}
+.box_left img{width: 100%; height: 100%;}
+#container button {margin: 14px 0 0 80px;}
+
+.box_right{width: 50%; display: flex; justify-content: center; align-items: center; }
+text{height: 100%; display: flex; flex-direction: column;
+    justify-content: center; align-items: center;}
+h3{font-family: "Yj NANCHO Medium"; font-size: 40px; text-align: center;}    
+
+#md{width: 1200px; height: 460px; margin:80px auto; display: flex; flex-direction: row; justify-content: space-around;}
+.box0 span{background-color:darkgoldenrod ;color: aliceblue; padding: 4px; text-align: center;}
+.box0 h6{background-color: green;color: aliceblue; padding: 4px;  text-align: center; width: 25px;}
+.box0 :hover{opacity: 0.8; }
+
+.mu{width: 100%; height: 500px; text-align: center; margin :50px auto;}
+
+#cla { margin:  auto;  width: 1000px; height: 450px; display: flex; align-items :flex-end; justify-content: center;}
+#cla img { margin: 0 auto; display: inline-block;}
+#cla>.pin img{width :300px;}
+#cla>.bei img{width: 350px; ; }
+#cla>.har img{width: 400px;}
+#cla> div img:hover{opacity: 0.8;}
+#cla> hr{width: 100%; color: grey; opacity: 0.6; align-content: center; }
+#cla> p{font-family: Arial, Helvetica, sans-serif; font-size: large; opacity: 0.5; text-align: center;}
+
+.pin > h1{margin-bottom:75px; }
+
+#cla_b{text-align: center; padding: 60px 150px 60px 150px ; opacity: 0.7;} 
+
+
+#contents > h1 {text-align: center;}
+#contents {padding: 10px;}
+
+
+#noti {width: 1200px; height: 800px ; margin: 0 auto; ; text-align: center; display: flex; flex-flow: row wrap; justify-content: space-around; align-content: space-evenly; }
+
+#noti button {margin: 40px auto; }
+#noti img{width:590px; height: 285px;}
+#noti img:hover{opacity: 0.8;}
+
+article p {text-decoration:none; text-align: right;color: darkgreen;float: right;}
+
+#last{ width: 100%; height: 500px; background-color: rgb(242, 241, 243); text-align: center; display: flex;
+    justify-content:center; align-items: center;}
+.inbox{width: 60%; height: 65%; background-color: white; }

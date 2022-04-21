@@ -5,102 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
- 
-    <style>
-         *{margin: 0; padding: 0; box-sizing: border-box;}
-       
-        header { width: 100%; height: 170px; background-color: white; margin: 0 auto; padding-top: 20px;}
-        #content{width: 1200px; height: 100%; margin:0 auto;}
-        .menu{width: 30%; height: 70px; float: left; margin: 50px 0 0;}
-        .logo {width: 40%;float: left; text-align: center;}
-        .log{width: 10%; height: 70px;  margin: 50px 0 0;float: right;}
-        #content img {vertical-align: middle;}
-
-        #slider {width: 100%; height: 500px; text-align: center; padding:0 auto;}
-
-        nav {width: 100%; height: 80px; background-color: rgb(10, 20, 53);}
-        nav ul{width: 1200px; list-style-type: none;  margin: 0 auto; padding: 10px; overflow: hidden;}
-        nav li a {text-decoration:none; text-align:center; color: aliceblue; display: block; padding: 20px ;}
-        nav li{float: left; padding: 0 18px;}
-        nav li:hover{opacity: 0.8;}
-
-        .line {width: 100%; height: 3px; border-top: 3px solid #480a94; border-bottom: 3px solid #c09d3f;}
-        .content {width: 1200px; height: 150px; margin: 0 auto; border: 1px solid red;}
-
-        button{ width: 170px; background-color: white; border: 0.001px solid dimgray; padding: 7px; opacity: 0.8;
-        text-align: center; }
-        button:hover{cursor: pointer; opacity: 1;} 
-
-        #tema { width: 1200px; height: 400px; margin: 70px 0px 0 auto; display: flex; flex-direction: row; justify-content: space-between;}  
-        #tema >  h1  {width: 1200px; height: 60px; text-align: center;  margin:10px auto;} 
-        #tema > .t p  {text-align: center;  margin:20px auto; font-size: larger;}
-        #tema > .t img{width: 300px;}
-        
-        #tema > .t {padding: 15px; float: left;} 
-
-        #tema > .t img:hover{opacity: 0.8;}
-
-
-        #container{width: 1200px; height: 420px; margin: 0 auto; display: flex; background-color: white;}
-       
-        .box_left{width: 50%; height: 100%; background: white;}
-        .box_left img{width: 100%; height: 100%;}
-        #container button {margin: 14px 0 0 80px;}
-
-        .box_right{width: 50%; display: flex; justify-content: center; align-items: center; }
-        text{height: 100%; display: flex; flex-direction: column;
-            justify-content: center; align-items: center;}
-        h3{font-family: "Yj NANCHO Medium"; font-size: 40px; text-align: center;}    
-        
-        #md{width: 1200px; height: 460px; margin:80px auto; display: flex; flex-direction: row; justify-content: space-around;}
-        .box0 span{background-color:darkgoldenrod ;color: aliceblue; padding: 4px; text-align: center;}
-        .box0 h6{background-color: green;color: aliceblue; padding: 4px;  text-align: center; width: 25px;}
-        .box0 :hover{opacity: 0.8; }
-
-        .mu{width: 100%; height: 500px; text-align: center; margin :50px auto;}
-   
-        #cla { margin:  auto;  width: 1000px; height: 450px; display: flex; align-items :flex-end; justify-content: center;}
-        #cla img { margin: 0 auto; display: inline-block;}
-        #cla>.pin img{width :300px;}
-        #cla>.bei img{width: 350px; ; }
-        #cla>.har img{width: 400px;}
-        #cla> div img:hover{opacity: 0.8;}
-        #cla> hr{width: 100%; color: grey; opacity: 0.6; align-content: center; }
-        #cla> p{font-family: Arial, Helvetica, sans-serif; font-size: large; opacity: 0.5; text-align: center;}
-        #cla> div {}
-        
-       .pin > h1{margin-bottom:75px; }
-
-       #cla_b{text-align: center; padding: 60px 150px 60px 150px ; opacity: 0.7;} 
-       
-
-        #contents > h1 {text-align: center;}
-        #contents {padding: 10px;}
-      
-
-        #noti {width: 1200px; height: 800px ; margin: 0 auto; ; text-align: center; display: flex; flex-flow: row wrap; justify-content: space-around; align-content: space-evenly; }
-      
-        #noti button {margin: 40px auto; }
-        #noti img{width:590px; height: 285px;}
-        #noti img:hover{opacity: 0.8;}
-
-        article p {text-decoration:none; text-align: right;color: darkgreen;float: right;}
-
-        #last{ width: 100%; height: 500px; background-color: rgb(242, 241, 243); text-align: center; display: flex;
-            justify-content:center; align-items: center;}
-        .inbox{width: 60%; height: 65%; background-color: white; }
-
-        #f {display: flex; flex-direction: row; justify-content: space-around; margin: auto;}
-        footer{width: 100%; height: 498px; background-color: rgb(10, 20, 53); color: aliceblue;}
-        #fbox{width: 1200px;height: 100%; margin: 0 auto;}
-        footer ul{list-style-type: none}
-        .mbox{padding: 50px 10px 80px 50px;}
-        footer h5, footer h6{text-align: center; margin: auto; opacity: 0.8;}
-        h1{text-align: center; margin-top: 50px;}
-        footer li  {text-decoration:none;  color: aliceblue; display: block;}
     
-    </style>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
 </head>
 <body>
     <header>
@@ -319,12 +228,12 @@
             <div id="f">
                 <div class="mbox">
                     <ul>
-                        <dl> 메뉴 </dl> <br>
-                        <a href="#"><li>-신상품 </li></a> <br>
-                        <a href="#"><li> -전체상품 </li></a><br>
-                        <a href="#"><li>-박물관 특화상품 </li></a> <br>
-                        <a href="#"><li>-특별전시 상품 </li></a> <br>
-                        <a href="#"><li>-뮤지엄샵 아울렛 </li></a> <br>
+                        <li> 메뉴 </li> <br>
+                        <li><a href="#"></a>-신상품 </a></li> <br>
+                        <li><a href="#"></a> -전체상품 </a></li><br>
+                        <li><a href="#"></a>-박물관 특화상품 </a></li> <br>
+                        <li><a href="#"></a>-특별전시 상품 </a></li> <br>
+                        <li><a href="#"></a>-뮤지엄샵 아울렛 </a></li> <br>
                     </ul>
                 </div>
         
