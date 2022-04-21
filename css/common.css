@@ -8,7 +8,7 @@ header { width: 100%; height: 170px; background-color: white; margin: 0 auto; pa
 .logo {width: 40%;float: left; text-align: center;}
 .log{width: 10%; height: 70px;  margin: 50px 0 0;float: right;}
 #content img {vertical-align: middle;}
-
+header a{text-decoration :none;color:black}
 
 #f {display: flex; flex-direction: row; justify-content: space-around; margin: auto;}
 footer{width: 100%; height: 498px; background-color: rgb(10, 20, 53); color: aliceblue;}
