@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ 
+    <style>
+         *{margin: 0; padding: 0; box-sizing: border-box;}
+        header { width: 100%; height: 170px; background-color: white; margin: 0 auto; padding-top: 20px;}
+        #content{width: 1200px; height: 100%; margin:0 auto;}
+        .menu{width: 30%; height: 70px; float: left; margin: 50px 0 0;}
+        .logo {width: 40%;float: left; text-align: center;}
+        .log{width: 10%; height: 70px;  margin: 50px 0 0;float: right;}
+        #content img {vertical-align: middle;}
+
+        #slider {width: 100%; height: 500px; text-align: center; padding:0 auto;}
+
+        nav {width: 100%; height: 80px; background-color: rgb(10, 20, 53);}
+        nav ul{width: 1200px; list-style-type: none;  margin: 0 auto; padding: 10px; overflow: hidden;}
+        nav li a {text-decoration:none; text-align:center; color: aliceblue; display: block; padding: 20px ;}
+        nav li{float: left; padding: 0 18px;}
+
+        .line {width: 100%; height: 3px; border-top: 3px solid #480a94; border-bottom: 3px solid #c09d3f;}
+        .content {width: 1200px; height: 150px; margin: 0 auto; border: 1px solid red;}
+
+        button{ width: 170px; background-color: white; border: 0.001px solid; padding: 7px; opacity: 0.8;
+         }
+          
+        #tema >  h1  {width: 1200px; height: 60px; text-align: center;  margin:0 auto;}
+        #tema > .t p  {text-align: center;  margin: 20px auto;}
+        #tema > .t img{width: 300px;}
+        #tema > .t img:hover{opacity: 0.8;}
+        #tema > .t {padding: 15px; float: left; border: none;}
+        #tema> div:nth-of-type(1){margin: 0 0 0 50px;}
+        #tema> div:nth-of-type(2){margin: 0 0 0 30px;}
+        #tema> div:nth-of-type(3){margin: 0 0 0 30px;}
+        #tema { width: 1200px; height: 400px; padding: 30px 0 0 60px; margin:0 auto;}
+
+        #container{width: 1200px; height: 420px; margin: 0 auto; display: flex; background-color: white;}
+       
+        .box_left{width: 50%; height: 100%; background: white;}
+        .box_left img{width: 100%; height: 100%;}
+
+        .box_right{width: 50%; display: flex; justify-content: center; align-items: center; }
+        text{height: 100%; display: flex; flex-direction: column;
+            justify-content: center; align-items: center;}
+        h3{font-family: "Yj NANCHO Medium"; font-size: 40px;}           
+
+        .mu{width: 100%; height: 500px; text-align: center; padding:0 auto;}
+   
+        #cla { margin:  auto;  width: 1000px; height: 450px; display: flex; align-items :flex-end; justify-content: center;}
+        #cla img { margin: 0 auto; display: inline-block;}
+        #cla>.pin img{width:80%;}
+        #cla>.bei img{width: 90%; }
+        #cla>.har img{width: 100%;}
+        #cla> div img:hover{opacity: 0.8;}
+        #cla> hr{width: 100%; color: grey; opacity: 0.6; align-content: center; }
+        #cla> p{font-family: Arial, Helvetica, sans-serif; font-size: large; opacity: 0.5; text-align: center;}
+        #cla> div {}
+        
+       .pin > h1{margin-bottom: 40px; }
+       #cla_b{text-align: center;}
+      
+
+        #contents > h1 {text-align: center;}
+        #contents {padding: 10px;}
+
+       
+
+        #noti {width: 1200px; height: 800px ; margin: 0 auto; text-align: center; display: flex; flex-flow: row wrap; justify-content: space-around; align-content: space-evenly; }
+      
+        #noti  button {padding: 20px 0 0 auto; }
+        #noti img{width:500px; height: 285px;}
+
+        article p {text-decoration:none; text-align: right;color: darkgreen;float: right;}
+
+        #last{ width: 100%; height: 500px; background-color: rgb(242, 241, 243); text-align: center; display: flex;
+            justify-content:center; align-items: center;}
+        .inbox{width: 60%; height: 65%; background-color: white; }
+
+        #f {display: flex; flex-direction: row; justify-content: space-around; margin: auto;}
+        footer{width: 100%; height: 498px; background-color: rgb(10, 20, 53); color: aliceblue;}
+        #fbox{width: 1200px;height: 100%; margin: 0 auto;}
+        footer ul{list-style-type: none}
+        .mbox{padding: 50px 10px 80px 50px;}
+        footer h5, footer h6{text-align: center; margin: auto; opacity: 0.8; }
+        
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="line"></div>
+        <div id="content">
+            <div class="menu">
+                <img src="img/menu1.jpg" alt=""><span>MENU</span>
+                <img src="img/search.jpg" alt=""><span>SEARCH</span>
+                <img src="img/local.jpg" alt="">
+            </div>
+  
+            <div class="logo"><img src="img/logo.jpg" alt=""></div>
+
+            <div class="log">
+                <img src="img/login.jpg" alt=""><span>LOG</span>
+            </div>
+            
+        </div>
+    </header>
+
+    <div id="slider">
+        <img src="img/main.jpg" alt="">
+    </div>
+    
+    <nav>
+        <ul>
+            <li><a href="#">신상품</a></li>
+            <li><a href="#">전체상품</a></li>
+            <li><a href="#">박물관특화상품</a></li>
+            <li><a href="#">특별전시상품·기획전</a></li>
+            <li><a href="#">뮤지엄샵</a></li>
+            <li><a href="#">아울렛</a></li>
+            <li><a href="#">기업·기관 선물추천</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div id="tema">
+        
+            <h1>테마기획</h1>
+        
+            <div class="t">
+                <a href="#"><img src="img/roof.jpg" alt=""></a>
+                <p>단청기와</p>
+            </div>
+        
+            <div class="t">
+                <a href="#"><img src="img/il (2).jpg" alt=""></a>
+                <p>일월오봉도</p>
+            </div>
+        
+            <div class="t">
+                <a href="#"><img src="img/chug.jpg" alt=""></a>
+                <p>고려청자</p>
+            </div>
+        
+        </div>
+        
+
+        <div id="container">
+            <div class="box_left">
+                <a href="#"><img src="img/charger.jpg" alt=""></a>
+            </div>
+        
+            <div class="box_right">
+                <div class="text">
+                    <h3>자개소반 무선충전기</h3>
+                    <button>더 알아보기</button>
+        
+                </div>
+            </div>
+        </div>
+
+        <div id="container">
+            <div class="box_right">
+                <div class="text">
+                    <h3>나전 당초장식 명함함</h3>
+                    <button>더 알아보기</button>
+                </div>
+            </div>
+
+            <div class="box_left">
+                <a href="#"><img src="img/ncard.jpg" alt=""></a>
+            </div>       
+        
+        </div>
+
+        <div class="mu">
+            <a href="#"><img src="img/mu.jpg" alt=""></a>
+        </div>
+
+        
+        <div id="cla">
+            
+            <div class="pin">
+                <h1>전통을 담은 <small><u>생활 소품</u></small></h1>
+                <a href="#"><img src="img/pin.jpg" alt=""></a>
+            </div>
+        
+            <div class="bei">
+                <a href="#"><img src="img/bei.jpg" alt=""></a>
+            </div>
+        
+            <div class="har">
+                <a href="#"><img src="img/har.jpg" alt=""></a>
+        
+            </div>
+        
+        </div>
+        <hr>
+        <div id="cla_b">
+        <p><b>전통을 담은 생활 소품 기획전</b></p>
+        <button type="button">더 알아보기</button>
+        </div>
+
+        <div id="contents">
+        
+            <h1>추천상품</h1>       
+        
+        </div>
+        
+        <div id="noti">
+
+            
+            <div class="m1">
+                <a href="#"><img src="img/ban.jpg" alt="" ><br>
+                <button>이 곳을 클릭</button></a>
+            </div>
+
+            <div class="m2">
+                <a href="#"><img src="img/lei.jpg" alt="" ><br>
+                <button>이 곳을 클릭</button></a>
+            </div>
+
+            <div class="m3">
+                <a href="#"><img src="img/utu.jpg" alt="" ><br>
+                <button>이 곳을 클릭</button></a>
+                </div>
+
+            <div class="m4">
+                <a href="#"><img src="img/book.png" alt="" width="550px" ><br>
+                <button>이 곳을 클릭</button></a>
+                </div>
+
+            </div> 
+    
+        <div class="mu"><a href="#"><img src="img/spring.jpg" alt="" ></a></div>
+
+    <div id="last">
+        
+        <div class="inbox">
+            <h2><b>☎</b>  전화상담 </h2><br>
+            <h4> 온라인문의전화 : 02-2077-2943/2942</h4><br>
+            <a href="#"><button style="width: auto;">자세한 내용 이 곳을 클릭하십시오</button></a> <br><br>
+            <b>(빠른 상담은 1:1문의 또는 이메일로 문의 해주세요)<br><br>  
+            온라인숍 문의</b>  <small> museumshop@nmf.or.kr </small><br><br>
+            <b>기업·기관 구매 문의</b> <small> b2b@nmf.or.kr</small><br><br>
+            상담시간 10시 ~ 16시 <small> 점심시간 12시 ~ 13시 30분</small><br>
+            토, 일, 공휴일 휴무<br>
+
+
+        </div>
+    
+
+
+
+    </section>
+
+    <article style="background-color: rgb(236, 234, 234);">
+
+     <div id="sns">
+        <a href="#"><img src="img/insta.jpg" alt="" ></a>
+        <a href="#"><img src="img/fbook.jpg" alt="" ></a>
+        <a href="#"><img src="img/tube.jpg" alt="" ></a>
+        <a href="#"><img src="img/line.jpg" alt="" ></a>
+        <a href="#"><img src="img/twit.jpg" alt="" ></a>  
+        <a href="#"><p><br>국립중앙박물관 공식홈페이지 바로가기</p></a>
+   </div>
+    </article>
+    
+    
+    
+    <footer>
+    
+        <div id="fbox">
+            <div id="f">
+                <div class="mbox">
+                    <ul>
+                        <dl> 메뉴 </dl> <br>
+                        <li>-신상품 </li> <br>
+                        <li>-전체상품 </li> <br>
+                        <li>-박물관 특화상품 </li> <br>
+                        <li>-특별전시 상품 </li> <br>
+                        <li>-뮤지엄샵 아울렛 </li> <br>
+                    </ul>
+                </div>
+    
+                <div class="mbox">
+                    <ul>
+                        <dl>콘텐츠</dl> <br>
+                        <li>-공지사항</li> <br>
+                        <li>-이벤트</li> <br>
+                        <li>-E-카달로그</li> <br>
+                        <li>-베스트리뷰</li> <br>
+                        <li>-기업 기관 추천</li> <br>
+                    </ul>
+                </div>
+    
+                <div class="mbox">
+                    <ul>
+                        <dl>이용방법 </dl> <br>
+                        <li>-이용약관</li> <br>
+                        <li>-개인정보 보호 정책</li> <br>
+                        <li>-위조 제품에 대한 주의</li> <br>
+                        <li>-문의</li> <br>
+                        <li>-자주 묻는 질문</li> <br>
+                    </ul>
+                </div>
+    
+                <div class="mbox">
+                    <ul>
+                        <dl>회원혜택</dl> <br>
+                        <li>-회원 프로그램</li> <br>
+                        <li>-회원약관</li> <br>
+                    </ul>
+                </div>
+            </div>
+    
+            <h5>서울특별시 용산구 서빙고로 137 온라인숍 : 02-2077-2943/2942 문화누리 주문 : 02-2077-2957 팩스번호 : 02-2077-9748</h5><br><br>
+            <h6>국립박물관문화재단 대표자 : 김용삼 사업자 등록번호 : 106-82-12358 통신판매업 신고번호 : 2008-서울용산-00336 </h6><br><br>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
