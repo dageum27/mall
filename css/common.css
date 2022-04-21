@@ -18,5 +18,5 @@ footer ul{list-style-type: none}
 footer h5, footer h6{text-align: center; margin: auto; opacity: 0.8;}
 h1{text-align: center; margin-top: 50px;}
 footer li { color: aliceblue; display: block; }
-footer li a { text-decoration :none; }
+footer li a { text-decoration :none;color: aliceblue; }
     
