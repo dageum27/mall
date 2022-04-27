@@ -34,7 +34,7 @@
         .qna table th {width:80px; border-bottom:1px solid #eee; color:#333}
         .qna table td {width:770px; border-bottom:1px solid #eee;}
         .qna table td > a {color:rgb(133, 132, 132);}      
-        .qna {width:1200px; height:450px; margin:0 auto; text-align:center;}
+        .qna {width:1200px; height:360px; margin:0 auto; text-align:center;}
         .qna > button {float:right; margin:25px 0px; width:120px; height:30px; color:#fff; font-size:12px; background-color:#333; border:1px solid #ddd;}
         .qna > button:hover {cursor:pointer;}
         .qna > table {display:inline-block; margin:0px auto; border-top:1px solid #333; line-height:50px; width:1200px; font-size:13px; color:#333;}
