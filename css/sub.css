@@ -1,2 +1,41 @@
 @charset "utf-8";
+* {margin: 10px auto; text-align: center;}
+        ul {list-style-type: none; margin: 0; padding: 0;}
+        a {text-decoration: none;}
+        
+        #top{width: 1200px; height: auto; margin: 0 auto;}
+        #main img{
+            width: 500px; margin: 0 auto; }
+        #main{width: 600px; height: 650px; display: flex; flex-direction:column; float: left;}
+        #f2, #f3, #f4{display: none; }  
+            
+        #simage img {width: 100px; height: 100px; margin:0 auto;}
+        #simage{float: left;}
+        
+        #simage a:hover {opacity: 0.7;}
+
+        #button{}
+        
+        #mtext{height: 700px; margin: 0 auto;}
+        #mtext > p , #option> form{text-align: left;}
+        #mtext  button { width:100px ; height: 30px;color:#fff; font-size:12px; background-color:#333; border:1px solid #ddd ;cursor: pointer;}
+        
+        #mtext img{margin: 0px 5px -8px 10px;}
+
+        #menu{width: 100%; height: 60px; background-color:#333;}
+        #menu ul {width: 1200px; margin: 0 auto; padding: 10px ; overflow: hidden; }
+        #menu  li {text-align: center; float: left;color:aliceblue;}
+        #menu li a {display: block; color:aliceblue;  padding: 0px 10px;  margin: 0 20px 0px 10px; text-align: center;}
+
+        .box{background-color: rgb(235, 235, 235); width: 800px; height: 600px; }
+        #box1{ width: 800px; height: 250px; margin: 15px auto;}
+        .pro img{width: 1100px; margin: 0 auto;}
+
+        .qna table th {width:80px; border-bottom:1px solid #eee; color:#333}
+        .qna table td {width:770px; border-bottom:1px solid #eee;}
+        .qna table td > a {color:rgb(133, 132, 132);}      
+        .qna {width:1200px; height:450px; margin:0 auto; text-align:center;}
+        .qna > button {float:right; margin:25px 0px; width:120px; height:30px; color:#fff; font-size:12px; background-color:#333; border:1px solid #ddd;}
+        .qna > button:hover {cursor:pointer;}
+        .qna > table {display:inline-block; margin:0px auto; border-top:1px solid #333; line-height:50px; width:1200px; font-size:13px; color:#333;}
 
