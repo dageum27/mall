@@ -14,11 +14,14 @@
         
         #simage a:hover {opacity: 0.7;}
 
-        #button{}
-        
+        .mtext td{ padding: 6px 15px;}
+        #mtext td{ padding: 6px 15px;}
         #mtext{height: 700px; margin: 0 auto;}
         #mtext > p , #option> form{text-align: left;}
-        #mtext  button { width:100px ; height: 30px;color:#fff; font-size:12px; background-color:#333; border:1px solid #ddd ;cursor: pointer;}
+        #mtext  button { width:100px ; height: 30px; margin: 4px;
+            color:#fff; font-size:12px; background-color:#333; border:1px solid #ddd ;cursor: pointer;}
+        
+        
         
         #mtext img{margin: 0px 5px -8px 10px;}
 
