@@ -15,15 +15,13 @@ button{ width: 170px; background-color: white; border: 0.001px solid dimgray; pa
 text-align: center; }
 button:hover{cursor: pointer; opacity: 1;} 
 
-#tema { width: 1200px; height: 400px; margin: 70px auto 0; display: flex; flex-direction: row; justify-content: space-between;}  
-#tema >  h1  {width: 1200px; height: 60px; text-align: center;  margin:10px auto;} 
+#tema {width: 1200px; height: 500px; margin: 100px auto 0; display: 
+    flex; flex-direction: row; justify-content: space-between;}  
+#tema >  h1  {width: 100%; height: 60px; text-align: center;  margin: 0 auto;} 
 #tema > .t p  {text-align: center;  margin:20px auto; font-size: larger;}
 #tema > .t img{width: 300px;}
-
 #tema > .t {padding: 15px; float: left;} 
-
 #tema > .t img:hover{opacity: 0.8;}
-
 
 .container{width: 1200px; height: 420px; margin: 0 auto; display: flex; background-color: white;}
 
@@ -31,7 +29,7 @@ button:hover{cursor: pointer; opacity: 1;}
 .box_left img{width: 100%; height: 100%;}
 .container button {margin: 14px 0 0 80px;}
 
-.box_right{width: 50%; display: flex; justify-content: center; align-items: center; }
+.box_right{width: 50%; display: flex; justify-content: center; align-items: center;}
 text{height: 100%; display: flex; flex-direction: column;
     justify-content: center; align-items: center;}
 h3{font-family: "Yj NANCHO Medium"; font-size: 40px; text-align: center;}    
@@ -41,9 +39,9 @@ h3{font-family: "Yj NANCHO Medium"; font-size: 40px; text-align: center;}
 .box0 h6{background-color: green;color: aliceblue; padding: 4px;   width: 26.5px;}
 .box0 a:hover{opacity: 0.8; }
 
-.mu{width: 100%; height: 500px; text-align: center; margin :50px auto;}
+.mu{width: 100%; height: 500px; text-align: center; margin: 250px 0  200px auto;}
 
-#cla { margin:  auto;  width: 1000px; height: 450px; display: flex; align-items :flex-end; justify-content: center;}
+#cla { margin: 100px auto;  width: 1000px; height: 450px; display: flex; align-items :flex-end; justify-content: center;}
 #cla img { margin: 0 auto; display: inline-block;}
 #cla>.pin img{width :300px;}
 #cla>.bei img{width: 350px; ; }
@@ -54,12 +52,11 @@ h3{font-family: "Yj NANCHO Medium"; font-size: 40px; text-align: center;}
 
 .pin > h1{margin-bottom:75px; }
 
-#cla_b{text-align: center; padding: 60px 150px 60px 150px ; opacity: 0.7;} 
+#cla_b{text-align: center; padding: 0 150px; opacity: 0.7; margin-bottom: 250px;} 
 
-
+#md {margin-bottom: 200px;}
 #contents > h1 {text-align: center;}
-#contents {padding: 10px;}
-
+#contents {padding: 10px; }
 
 #noti {width: 1200px; height: 800px ; margin: 0 auto; ; text-align: center; display: flex; flex-flow: row wrap; justify-content: space-around; align-content: space-evenly; }
 
@@ -69,6 +66,6 @@ h3{font-family: "Yj NANCHO Medium"; font-size: 40px; text-align: center;}
 
 article p {text-decoration:none; text-align: right;color: darkgreen;float: right;}
 
-#last{ width: 100%; height: 500px; background-color: rgb(242, 241, 243); text-align: center; display: flex;
+#last{ width: 100%; height: 500px; background-color: rgb(242, 241, 243); display: flex;
     justify-content:center; align-items: center;}
-.inbox{width: 60%; height: 65%; background-color: white; }
+.inbox{width: 40%; height: 80%; background-color: white; text-align: center; padding: 25px;}
